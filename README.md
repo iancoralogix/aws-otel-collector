@@ -1,4 +1,5 @@
 [![C/I](https://github.com/aws-observability/aws-otel-collector/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/aws-observability/aws-otel-collector/actions/workflows/CI.yml)
+asdfsaf
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/aws-observability/aws-otel-collector)
 
 
@@ -65,7 +66,7 @@ To build the ADOT Collector locally, you will need to have Golang installed. You
 #### ADOT Collector Configuration
 
 The ADOT Collector is built with a [default configuration](https://github.com/aws-observability/aws-otel-collector/blob/main/config.yaml).
-The ADOT Collector configuration uses the same configuration syntax/design from [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector). For more information regarding OpenTelemetry Collector configuration please refer to the [upstream documentation](https://opentelemetry.io/docs/collector/configuration/). 
+The ADOT Collector configuration uses the same configuration syntax/design from [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector). For more information regarding OpenTelemetry Collector configuration please refer to the [upstream documentation](https://opentelemetry.io/docs/collector/configuration/).
 so you can customize or port your OpenTelemetry Collector configuration files when running ADOT Collector. Please refer to the `Try out the ADOT Collector` section on configuring ADOT Collector.
 
 #### Try out the ADOT Collector
@@ -100,7 +101,7 @@ The performance test can be conducted by following the [instructions](https://gi
 
  Please note that as per policy, we're providing support via GitHub on a best effort basis. However, if you have AWS Enterprise Support you can create a ticket and we will provide direct support within the respective SLAs.
 
-For each merged pull request, a corresponding image with the naming convention of ```[ADOT_COLLECTOR_VERSION]-[GITHUB_SHA]``` is pushed to [public.ecr.aws/aws-otel-test/adot-collector-integration-test](https://gallery.ecr.aws/aws-otel-test/adot-collector-integration-test). 
+For each merged pull request, a corresponding image with the naming convention of ```[ADOT_COLLECTOR_VERSION]-[GITHUB_SHA]``` is pushed to [public.ecr.aws/aws-otel-test/adot-collector-integration-test](https://gallery.ecr.aws/aws-otel-test/adot-collector-integration-test).
 This image is used for the integration tests. You can pull any of the images from there, however, we will not support any issues and pull requests for these test images.
 
 ### Supported Versions
